@@ -142,7 +142,7 @@ class MobileReport extends StatelessWidget {
         ),
         ImageWithBuilder(
           imageUrl:
-              'https://firebasestorage.googleapis.com/v0/b/diegolopez-drivingschool.appspot.com/o/operator_signatures%2F${report.operatorUsername}@cdapanamericana.com.png?alt=media&token=41fac518-6d4f-4f43-86cd-fceaff5143bc',
+              'https://firebasestorage.googleapis.com/v0/b/diegolopez-drivingschool.appspot.com/o/operator_signatures%2F${report.operatorUsername}@diegolopez.com.png?alt=media&token=41fac518-6d4f-4f43-86cd-fceaff5143bc',
           width: screenWidth,
         ),
         const Divider(),
@@ -161,7 +161,7 @@ class MobileReport extends StatelessWidget {
             report.engineerUsername!.isNotEmpty)
           ImageWithBuilder(
             imageUrl:
-                'https://firebasestorage.googleapis.com/v0/b/diegolopez-drivingschool.appspot.com/o/operator_signatures%2F${report.engineerUsername}@cdapanamericana.com.png?alt=media&token=41fac518-6d4f-4f43-86cd-fceaff5143bc',
+                'https://firebasestorage.googleapis.com/v0/b/diegolopez-drivingschool.appspot.com/o/operator_signatures%2F${report.engineerUsername}@diegolopez.com.png?alt=media&token=41fac518-6d4f-4f43-86cd-fceaff5143bc',
             width: screenWidth,
           ),
         const Divider(),

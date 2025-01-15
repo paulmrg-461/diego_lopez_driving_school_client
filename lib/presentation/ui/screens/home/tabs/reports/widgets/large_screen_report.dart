@@ -410,7 +410,7 @@ class LargeScreenReport extends StatelessWidget {
                       const SignatureImage(
                         height: 46,
                         imageUrl:
-                            'https://firebasestorage.googleapis.com/v0/b/diegolopez-drivingschool.appspot.com/o/operator_signatures%2F${Environment.receptionist}@cdapanamericana.com.png?alt=media&token=41fac518-6d4f-4f43-86cd-fceaff5143bc',
+                            'https://firebasestorage.googleapis.com/v0/b/diegolopez-drivingschool.appspot.com/o/operator_signatures%2F${Environment.receptionist}@diegolopez.com.png?alt=media&token=41fac518-6d4f-4f43-86cd-fceaff5143bc',
                       ),
                     ],
                   ),
@@ -893,7 +893,7 @@ class LargeScreenReport extends StatelessWidget {
                         ),
                         SignatureImage(
                           imageUrl:
-                              'https://firebasestorage.googleapis.com/v0/b/diegolopez-drivingschool.appspot.com/o/operator_signatures%2F${report.engineerUsername}@cdapanamericana.com.png?alt=media&token=41fac518-6d4f-4f43-86cd-fceaff5143bc',
+                              'https://firebasestorage.googleapis.com/v0/b/diegolopez-drivingschool.appspot.com/o/operator_signatures%2F${report.engineerUsername}@diegolopez.com.png?alt=media&token=41fac518-6d4f-4f43-86cd-fceaff5143bc',
                         ),
                         Text(
                           '',

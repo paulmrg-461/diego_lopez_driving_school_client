@@ -587,7 +587,7 @@ class _AttendanceRegisterFormScreenState
         reminderRTMyEC: _reminderRTMyEC,
         isSecondVisit: _isSecondVisit,
         operatorUsername: widget.userEmail.replaceAll(
-          '@cdapanamericana.com',
+          '@diegolopez.com',
           '',
         ),
         signatureUrl: '',

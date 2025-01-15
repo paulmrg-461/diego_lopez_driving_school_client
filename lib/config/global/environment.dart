@@ -1,7 +1,7 @@
 class Environment {
   static final List<String> adminEmails = [
-    'ivan@cdapanamericana.com',
-    'marcela@cdapanamericana.com'
+    'paul@diegolopez.com',
+    'jimmy@diegolopez.com',
   ];
   static const String receptionist = 'aleja';
 }

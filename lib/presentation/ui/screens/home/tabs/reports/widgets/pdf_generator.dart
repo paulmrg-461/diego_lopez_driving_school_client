@@ -63,13 +63,13 @@ Future<pw.Document> buildPdfDocument(AttendanceReport report) async {
 
   // Cargar firmas
   final recepcionistImageUrl =
-      'https://firebasestorage.googleapis.com/v0/b/diegolopez-drivingschool.appspot.com/o/operator_signatures%2F${Environment.receptionist}@cdapanamericana.com.png?alt=media&token=41fac518-6d4f-4f43-86cd-fceaff5143bc';
+      'https://firebasestorage.googleapis.com/v0/b/diegolopez-drivingschool.appspot.com/o/operator_signatures%2F${Environment.receptionist}@diegolopez.com.png?alt=media&token=41fac518-6d4f-4f43-86cd-fceaff5143bc';
   final recepcionistSignatureImage = await loadImageFromUrl(
     recepcionistImageUrl,
   );
 
   final engineerImageUrl =
-      'https://firebasestorage.googleapis.com/v0/b/diegolopez-drivingschool.appspot.com/o/operator_signatures%2F${report.engineerUsername}@cdapanamericana.com.png?alt=media&token=41fac518-6d4f-4f43-86cd-fceaff5143bc';
+      'https://firebasestorage.googleapis.com/v0/b/diegolopez-drivingschool.appspot.com/o/operator_signatures%2F${report.engineerUsername}@diegolopez.com.png?alt=media&token=41fac518-6d4f-4f43-86cd-fceaff5143bc';
   final engineerImage = await loadImageFromUrl(engineerImageUrl);
 
   final signatureImage = report.signatureUrl != null

@@ -28,7 +28,7 @@ class _LoginScreenState extends State<LoginScreen> {
     if (_formKey.currentState!.validate()) {
       BlocProvider.of<AuthBloc>(context).add(
         AuthLoginEvent(
-          '${(_usernameController.text.trim()).toLowerCase()}@cdapanamericana.com',
+          '${(_usernameController.text.trim()).toLowerCase()}@diegolopez.com',
           _passwordController.text.trim(),
         ),
       );

@@ -77,11 +77,10 @@ class _OperatorRegisterFormState extends State<OperatorRegisterForm> {
                   width: _inputsWidth,
                   hintText: "Nombres",
                   controller: _nameController,
-                  validator:
-                      (value) => InputValidator.emptyValidator(
-                        minCharacters: 3,
-                        value: value,
-                      ),
+                  validator: (value) => InputValidator.emptyValidator(
+                    minCharacters: 3,
+                    value: value,
+                  ),
                   textCapitalization: TextCapitalization.words,
                   textInputType: TextInputType.name,
                   icon: Icons.person_outline,
@@ -91,11 +90,10 @@ class _OperatorRegisterFormState extends State<OperatorRegisterForm> {
                   width: _inputsWidth,
                   hintText: "Apellidos",
                   controller: _lastnameController,
-                  validator:
-                      (value) => InputValidator.emptyValidator(
-                        minCharacters: 3,
-                        value: value,
-                      ),
+                  validator: (value) => InputValidator.emptyValidator(
+                    minCharacters: 3,
+                    value: value,
+                  ),
                   textCapitalization: TextCapitalization.words,
                   textInputType: TextInputType.name,
                   icon: Icons.person_outline,
@@ -124,8 +122,8 @@ class _OperatorRegisterFormState extends State<OperatorRegisterForm> {
                   width: 460,
                   hintText: "Contraseña",
                   controller: _passwordController,
-                  validator:
-                      (value) => InputValidator.emptyValidator(value: value),
+                  validator: (value) =>
+                      InputValidator.emptyValidator(value: value),
                   icon: Icons.lock_outline_rounded,
                   obscureText: true,
                   passwordVisibility: true,
@@ -168,15 +166,13 @@ class _OperatorRegisterFormState extends State<OperatorRegisterForm> {
                               _isSignatureLocked
                                   ? Icons.lock_rounded
                                   : Icons.lock_open_rounded,
-                              color:
-                                  _isSignatureLocked
-                                      ? Colors.red
-                                      : Colors.green,
+                              color: _isSignatureLocked
+                                  ? Colors.red
+                                  : Colors.green,
                             ),
-                            tooltip:
-                                _isSignatureLocked
-                                    ? 'Desbloquear Interacción'
-                                    : 'Bloquear Interacción',
+                            tooltip: _isSignatureLocked
+                                ? 'Desbloquear Interacción'
+                                : 'Bloquear Interacción',
                           ),
                         ],
                       ),
@@ -228,8 +224,7 @@ class _OperatorRegisterFormState extends State<OperatorRegisterForm> {
         id: '',
         name: _nameController.text,
         lastname: _lastnameController.text,
-        email:
-            '${(_usernameController.text).toLowerCase()}@cdapanamericana.com',
+        email: '${(_usernameController.text).toLowerCase()}@diegolopez.com',
         dni: _dniController.text,
         signaturePhotoUrl: '',
         uid: '',
@@ -238,8 +233,8 @@ class _OperatorRegisterFormState extends State<OperatorRegisterForm> {
       );
 
       context.read<OperatorBloc>().add(
-        CreateOperatorEvent(operator, signature),
-      );
+            CreateOperatorEvent(operator, signature),
+          );
       _resetForm();
     }
   }
