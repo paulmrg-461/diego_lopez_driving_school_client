@@ -1,0 +1,8 @@
+{
+  "projects": {
+    "default": "diegolopez-drivingschool",
+    "release": "diegolopez-drivingschool"
+  },
+  "targets": {},
+  "etags": {}
+}

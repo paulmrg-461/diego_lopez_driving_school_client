@@ -1,0 +1,3 @@
+export 'package:diego_lopez_driving_school_client/presentation/ui/screens/attendance_register_form/widgets/consent_tile.dart';
+export 'package:diego_lopez_driving_school_client/presentation/ui/screens/attendance_register_form/widgets/owner_data_tile.dart';
+export 'package:diego_lopez_driving_school_client/presentation/ui/screens/attendance_register_form/widgets/attendance_data_tile.dart';
